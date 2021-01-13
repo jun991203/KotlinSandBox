@@ -20,6 +20,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/button_main"
+            android:textColor="#000"
+            android:textStyle="bold"
             android:text="데이터 넘기기 연습"/>
 
         <Button
@@ -27,7 +30,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/button_main"
+            android:textColor="#000"
+            android:textStyle="bold"
             android:text="ImageView 연습"/>
+
+        <Button
+            android:id="@+id/main_recycler_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_main"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="RecyclerView 연습"/>
 
 
     </LinearLayout>

@@ -14,9 +14,9 @@ class SendDataActivity : AppCompatActivity() {
         main_next_Button.setOnClickListener {
             // var : 변수
             // val : 자바에서는 final 같이 변경되지 못하는 변수
-            val intent = Intent(this, NextActivity::class.java)
-            intent.putExtra("data", main_EditText.text.toString()) // getText() == text
-            startActivity(intent)
+            val nextIntent = Intent(this, NextActivity::class.java)
+            nextIntent.putExtra("data", main_EditText.text.toString()) // getText() == text
+            startActivity(nextIntent)
         }
     }
 }

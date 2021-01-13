@@ -11,13 +11,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         main_senddata_Button.setOnClickListener {
-            val intent = Intent(this, SendDataActivity::class.java)
-            startActivity(intent)
+            val dataIntent = Intent(this, SendDataActivity::class.java)
+            startActivity(dataIntent)
         }
 
         main_image_Button.setOnClickListener {
-            val intent = Intent(this, ImageActivity::class.java)
-            startActivity(intent)
+            val imageIntent = Intent(this, ImageActivity::class.java)
+            startActivity(imageIntent)
+        }
+
+        main_recycler_Button.setOnClickListener {
+            val reIntent = Intent(this, ListActivity::class.java)
+            startActivity(reIntent)
         }
 
 
