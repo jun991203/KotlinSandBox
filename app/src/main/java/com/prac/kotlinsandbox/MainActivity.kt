@@ -25,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(reIntent)
         }
 
+        main_location_Button.setOnClickListener {
+            val locIntent = Intent(this, LocationActivity::class.java)
+            startActivity(locIntent)
+        }
+
 
     }
 }
