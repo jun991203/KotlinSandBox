@@ -55,6 +55,16 @@
             android:textStyle="bold"
             android:text="Location 연습"/>
 
+        <Button
+            android:id="@+id/main_retrofit_Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_main"
+            android:textColor="@color/colorDarkGrey"
+            android:textStyle="bold"
+            android:text="Retrofit Papago"/>
+
 
     </LinearLayout>
 
